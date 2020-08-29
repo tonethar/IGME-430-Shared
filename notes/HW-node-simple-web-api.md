@@ -50,7 +50,7 @@
 # III. Get started - creating and cloning a GitHub repository
 
 - So that we can deploy this app (our web API) to the web using Heroku, we will need to set up a GitHub repository for the app. This is because Heroku uses GitHub to upload the app's files (as opposed to using an FTP client if we were working with a web server like Apache)
-- If you do not intend to deploy this app to the web, then you can skip this step
+- If you do not intend to deploy this app to the web and will instead just run it locally, then you can skip the steps below. Instead, just create a folder on your desktop named **joke-service**
 
 1) Login to your GitHub account and create a new empty repository named **joke-service**
 
@@ -61,6 +61,21 @@
 3) Open your console app (Terminal, GitBash, et al.)
 
 4) *Change directory* to whatever folder you want to do work in:
-  - you can accomplish this by typing `cd`, then a space, and then dragging the folder into the console window, which should copy the file path to that folder into the console window. The type enter.
-  - On Unix/Linix machines like Mac OS, or in GitBash, you should go ahead and verify that your [*current working directory*](https://en.wikipedia.org/wiki/Working_directory) is your chosen folder by typing `pwd` (*print working directory*)
+    - you can accomplish this by typing `cd`, then a space, and then dragging the folder into the console window, which should copy the file path to that folder into the console window. The type enter.
+    - On Unix/Linix machines like Mac OS, or in GitBash, you should go ahead and verify that your [*current working directory*](https://en.wikipedia.org/wiki/Working_directory) is your chosen folder by typing `pwd` (*print working directory*)
+    
+5) Type `git clone <url>` (replace `<url>` with the clone url of you repository)
+
+<hr>
+
+# IV. Create a package.json file
   
+1) Type `cd joke-service` to make joke-service your current working directory 
+
+2) Type `npm init -y` to create a **package.json file for this project - https://docs.npmjs.com/cli/init
+
+    - it will look something like this:
+    
+```js
+
+```
