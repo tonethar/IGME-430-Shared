@@ -4,6 +4,7 @@
 ## I. Overview
 
 - We are going to create a simple [*Web API*](https://en.wikipedia.org/wiki/Web_API) using node and npm
+- Because this is a very simple app, we are going to do so without using any node packages such as Express
 - We are going to deploy the code for our API to the ["platform as service"](https://www.heroku.com/platform) provider [Heroku](https://www.heroku.com/#) using Git & Github
 - This web service will serve up a random joke in [JSON](https://www.json.org/json-en.html) format
 - Below are screenshots of the landing page for the service, the `/stale-joke` and `/random-joke` endpoints, and a client web app that uses the web service
