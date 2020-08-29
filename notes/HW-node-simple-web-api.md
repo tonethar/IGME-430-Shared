@@ -123,6 +123,8 @@
 }
 ```
 
-    - Go ahead and add  `"author"` and `"keywords"` values if you want
+- Go ahead and add values for `"author"` and `"keywords"` if you want
 
+<hr>
 
+# V. Create index.js
