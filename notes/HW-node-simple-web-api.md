@@ -74,7 +74,9 @@
 
 # IV. Create a package.json file
   
-1) Type `cd joke-service` to make joke-service your current working directory 
+1) Type `cd joke-service` to make **joke-service** your current working directory. Then type `pwd` to verify that you were successful.
+
+![screenshot](_images/_simple-node-web-api/ss-7.png)
 
 2) Type `npm init -y` to create a **package.json** file for this project - https://docs.npmjs.com/cli/init
 
