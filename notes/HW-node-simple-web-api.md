@@ -128,3 +128,9 @@
 <hr>
 
 # V. Create index.js
+
+1) Inside of **joke-service**, create a folder named **src**
+
+2) Inside of **src**, create a file named **index.js**
+
+3)
