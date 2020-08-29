@@ -141,14 +141,14 @@ console.log("Server starting up ...");
 
 ```
 
-4) Test your code by typing into the console (assuming that your current working directory is **joke-service**) - you should see `Server starting up ...` logged to the console. 
+4) Test your code by typing `node ./src/index.js` into the console (assuming that your current working directory is **joke-service**):
+  - you should see `Server starting up ...` logged to the console
 
-```
-node ./src/index.js
-```
 
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-8.png)
 
 <hr>
+
+5)
