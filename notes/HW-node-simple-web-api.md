@@ -149,6 +149,6 @@ node ./src/index.js
 
 <hr>
 
-![screenshot](_images/_simple-node-web-api/ss-7.png)
+![screenshot](_images/_simple-node-web-api/ss-8.png)
 
 <hr>
