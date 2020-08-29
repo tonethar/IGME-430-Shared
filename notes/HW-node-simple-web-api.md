@@ -10,21 +10,21 @@
 
 **The landing page**
 
-![screenshot](_images/_simple-node-web-api/ss-1.jpg)
+![screenshot](_images/_simple-node-web-api/ss-1.png)
 
 **`/stale-joke`**
 
-![screenshot](_images/_simple-node-web-api/ss-2.jpg)
+![screenshot](_images/_simple-node-web-api/ss-2.png)
 
 **`/random-joke`**
 
-![screenshot](_images/_simple-node-web-api/ss-3.jpg)
+![screenshot](_images/_simple-node-web-api/ss-3.png)
 
 **A client web app that uses the random-jokeservice**
 
 - the code for this client provided at the end of this tutorial
 
-![screenshot](_images/_simple-node-web-api/ss-4.jpg)
+![screenshot](_images/_simple-node-web-api/ss-4.png)
 
 <hr>
 
@@ -56,7 +56,7 @@
 
 2) Copy the clone url
 
-![screenshot](_images/_simple-node-web-api/ss-5.jpg)
+![screenshot](_images/_simple-node-web-api/ss-5.png)
 
 3) Open your console app (Terminal, GitBash, et al.)
 
