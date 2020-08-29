@@ -83,5 +83,24 @@
     - it will look something like this:
     
 ```js
-
+{
+  "name": "joke-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonethar/joke-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonethar/joke-service/issues"
+  },
+  "homepage": "https://github.com/tonethar/joke-service#readme"
+}
 ```
