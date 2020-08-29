@@ -60,11 +60,15 @@
 
 3) Open your console app (Terminal, GitBash, et al.)
 
-4) *Change directory* to whatever folder you want to do work in:
+4) *Change directory* to whatever folder on your computer that you want to do work in:
     - you can accomplish this by typing `cd`, then a space, and then dragging the folder into the console window, which should copy the file path to that folder into the console window. The type enter.
     - On Unix/Linix machines like Mac OS, or in GitBash, you should go ahead and verify that your [*current working directory*](https://en.wikipedia.org/wiki/Working_directory) is your chosen folder by typing `pwd` (*print working directory*)
     
 5) Type `git clone <url>` (replace `<url>` with the clone URL of your repository)
+
+6) Type `ls` to verify that you have downloaded your (empty) repository
+
+![screenshot](_images/_simple-node-web-api/ss-6.png)
 
 <hr>
 
