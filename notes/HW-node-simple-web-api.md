@@ -1,7 +1,7 @@
 # HW - Node Simple Web API
 
 
-# I. Overview
+## I. Overview
 
 - We are going to create a simple [*Web API*](https://en.wikipedia.org/wiki/Web_API) using node and npm
 - We are going to deploy the code for our API to the ["platform as service"](https://www.heroku.com/platform) provider [Heroku](https://www.heroku.com/#) using Git & Github
@@ -36,7 +36,7 @@
 
 <hr>
 
-# II. Getting ready
+## II. Getting ready
 
 1) You need a console app to type commands into:
     - On Mac OS you can use the built in *Terminal* app
@@ -55,7 +55,7 @@
 
 <hr>
 
-# III. Get started - creating and cloning a GitHub repository
+## III. Get started - creating and cloning a GitHub repository
 
 - So that we can deploy this app (our web API) to the web using Heroku, we will need to set up a GitHub repository for the app. This is because Heroku uses GitHub to upload the app's files (as opposed to using an FTP client if we were working with a web server like Apache)
 - If you do not intend to deploy this app to the web and will instead just run it locally, then you can skip the steps below. Instead, just create a folder on your desktop named **joke-service**
@@ -86,7 +86,7 @@
 
 <hr>
 
-# IV. Create a package.json file
+## IV. Create a package.json file
   
 1) Type `cd joke-service` to make **joke-service** your current working directory. Then type `pwd` to verify that you were successful.
 
@@ -127,7 +127,7 @@
 
 <hr>
 
-# V. Create index.js
+## V. Create index.js
 
 1) Inside of **joke-service**, create a folder named **src**
 
