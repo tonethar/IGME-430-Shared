@@ -52,7 +52,7 @@
 - So that we can deploy this app (our web API) to the web using Heroku, we will need to set up a GitHub repository for the app. This is because Heroku uses GitHub to upload the app's files (as opposed to using an FTP client if we were working with a web server like Apache)
 - If you do not intend to deploy this app to the web and will instead just run it locally, then you can skip the steps below. Instead, just create a folder on your desktop named **joke-service**
 
-1) Login to your GitHub account and create a new empty repository named **joke-service**
+1) Login to your GitHub account and create a new repository named **joke-service** - you don't need to add a README or anything - just keep it empty
 
 2) Copy the *clone URL*
 
