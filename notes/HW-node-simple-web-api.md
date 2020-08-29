@@ -54,7 +54,7 @@
 
 1) Login to your GitHub account and create a new empty repository named **joke-service**
 
-2) Copy the clone url
+2) Copy the *clone URL*
 
 ![screenshot](_images/_simple-node-web-api/ss-5.png)
 
