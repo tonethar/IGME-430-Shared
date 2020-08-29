@@ -64,7 +64,7 @@
     - you can accomplish this by typing `cd`, then a space, and then dragging the folder into the console window, which should copy the file path to that folder into the console window. The type enter.
     - On Unix/Linix machines like Mac OS, or in GitBash, you should go ahead and verify that your [*current working directory*](https://en.wikipedia.org/wiki/Working_directory) is your chosen folder by typing `pwd` (*print working directory*)
     
-5) Type `git clone <url>` (replace `<url>` with the clone url of you repository)
+5) Type `git clone <url>` (replace `<url>` with the clone URL of your repository)
 
 <hr>
 
