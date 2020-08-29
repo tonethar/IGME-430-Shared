@@ -78,7 +78,7 @@
 
 ![screenshot](_images/_simple-node-web-api/ss-7.png)
 
-2) Type `npm init -y` to create a **package.json** file for this project - https://docs.npmjs.com/cli/init
+2) Type `npm init -y` to create a **package.json** file with the default values - https://docs.npmjs.com/cli/init
 
     - it will look something like this:
     
@@ -104,3 +104,7 @@
   "homepage": "https://github.com/tonethar/joke-service#readme"
 }
 ```
+
+- Go ahead and add  `"author"` and `"keywords"` values if you want
+
+
