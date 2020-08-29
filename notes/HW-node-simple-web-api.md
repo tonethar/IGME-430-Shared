@@ -8,17 +8,25 @@
 - This web service will serve up a random joke in JSON format
 - Below are screenshots of the landing page for the service, the `/stale-joke` and `/random-joke` endpoints, and a client web app that uses the web service
 
+<hr>
+
 **The landing page**
 
 ![screenshot](_images/_simple-node-web-api/ss-1.png)
+
+<hr>
 
 **`/stale-joke`**
 
 ![screenshot](_images/_simple-node-web-api/ss-2.png)
 
+<hr>
+
 **`/random-joke`**
 
 ![screenshot](_images/_simple-node-web-api/ss-3.png)
+
+<hr>
 
 **A client web app that uses the random-jokeservice**
 
@@ -56,7 +64,11 @@
 
 2) Copy the *clone URL*
 
+<hr>
+
 ![screenshot](_images/_simple-node-web-api/ss-5.png)
+
+<hr>
 
 3) Open your console app (Terminal, GitBash, et al.)
 
@@ -68,6 +80,8 @@
 
 6) Type `ls` to verify that you have downloaded your (empty) repository
 
+<hr>
+
 ![screenshot](_images/_simple-node-web-api/ss-6.png)
 
 <hr>
@@ -76,7 +90,11 @@
   
 1) Type `cd joke-service` to make **joke-service** your current working directory. Then type `pwd` to verify that you were successful.
 
+<hr>
+
 ![screenshot](_images/_simple-node-web-api/ss-7.png)
+
+<hr>
 
 2) Type `npm init -y` to create a **package.json** file with the default values - https://docs.npmjs.com/cli/init
 
