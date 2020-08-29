@@ -105,6 +105,6 @@
 }
 ```
 
-- Go ahead and add  `"author"` and `"keywords"` values if you want
+    - Go ahead and add  `"author"` and `"keywords"` values if you want
 
 
