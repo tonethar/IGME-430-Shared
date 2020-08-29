@@ -72,7 +72,7 @@
   
 1) Type `cd joke-service` to make joke-service your current working directory 
 
-2) Type `npm init -y` to create a **package.json file for this project - https://docs.npmjs.com/cli/init
+2) Type `npm init -y` to create a **package.json** file for this project - https://docs.npmjs.com/cli/init
 
     - it will look something like this:
     
