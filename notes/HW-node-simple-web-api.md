@@ -5,7 +5,7 @@
 
 - We are going to create a simple [*Web API*](https://en.wikipedia.org/wiki/Web_API) using node and npm
 - We are going to deploy the code for our API to the ["platform as service"](https://www.heroku.com/platform) provider [Heroku](https://www.heroku.com/#) using Git & Github
-- This web service will serve up a random joke in JSON format
+- This web service will serve up a random joke in [JSON](https://www.json.org/json-en.html) format
 - Below are screenshots of the landing page for the service, the `/stale-joke` and `/random-joke` endpoints, and a client web app that uses the web service
 
 <hr>
@@ -133,4 +133,16 @@
 
 2) Inside of **src**, create a file named **index.js**
 
-3)
+3) Add this line of code to **index.js**
+
+```js
+
+console.log("Server starting up ...");
+
+```
+
+4) Test your code by typing into the console (assuming that your current working directory is
+
+```
+node ./src/index.js
+```
