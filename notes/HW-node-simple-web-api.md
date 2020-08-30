@@ -29,7 +29,7 @@
 
 <hr>
 
-**A client web app that uses the random-jokeservice**
+**A client web app that uses the random-joke [endpoint](https://stackoverflow.com/questions/2122604/what-is-an-endpoint)**
 
 - the code for this client provided at the end of this tutorial
 
