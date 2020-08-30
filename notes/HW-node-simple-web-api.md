@@ -165,7 +165,7 @@ console.log("Server starting up ...");
   },
 ```
 
-2) On the command line, type `npm start` - which is short for `npm run start` - this will run the command you added to the **package.json** file. THis does the same thing we did in Part V. above, but with less typing and remembering!
+2) On the command line, type `npm start` - which is short for `npm run start` - this will run the command you just added to the **package.json** file (i.e) the value of the `"start"` key. This does the same thing we did in Part V. above, but with less typing and remembering!
 
 <hr>
 
