@@ -152,4 +152,25 @@ console.log("Server starting up ...");
 
 <hr>
 
-5)
+## VI. Update package.json
+
+1) The first thing we are going to add to **package.json** is a `"start"` key (which goes under the `"scripts"` key) 
+    - the `"start"` key will have a value of `"node ./src/index.js"`
+    - the the `"scripts"` key of your **package.json** file should now look this:
+    
+```json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+```
+
+2) On the command line, type `npm start` - which is short for `npm run start` - this will run the command you added to the **package.json** file. THis does the same thing we did in Part V. above, but with less typing and remembering!
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-9.png)
+
+<hr>
+
+3) 
