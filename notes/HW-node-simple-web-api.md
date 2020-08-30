@@ -174,11 +174,21 @@ console.log("Server starting up ...");
 <hr>
 
 3) Now we are going to install ONE npm package - just one external dependency - the nodemon project - this is going to be a *development dependency* to make our lives easier:
-  - you can read about it here: https://www.npmjs.com/package/nodemon
-  - what nodemon will do for us will be to automatically restart our app any time we make changes to our files - this will end up saving us a lot of time over the long haul of writing and debugging an app
+    - you can read about it here: https://www.npmjs.com/package/nodemon
+    - what nodemon will do for us will be to automatically restart our app any time we make changes to our files - this will end up saving us a lot of time over the long haul of writing and debugging an app
   
 4) To install nodemon for just this app type `npm install --save-dev nodemon`
 
+<hr>
+
 ![screenshot](_images/_simple-node-web-api/ss-10.png)
 
-   - the `--save-dev nodemon` flag will add a `"devDependencies"` key to **package.json**
+<hr>
+
+5) the `--save-dev nodemon` flag will add a `"devDependencies"` key to **package.json** - which looks something like this (your version number may vary):
+
+```js
+"devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+```
