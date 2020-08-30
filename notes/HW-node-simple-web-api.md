@@ -4,7 +4,7 @@
 ## I. Overview
 
 - We are going to create a simple [*Web API*](https://en.wikipedia.org/wiki/Web_API) using node and npm
-- Because this is a very simple app, we are going to do so without using any node packages such as Express
+- Because this is a very simple app, we are going to do so without using any node packages such as [Express](https://www.npmjs.com/package/express)
 - We are going to deploy the code for our API to the ["platform as service"](https://www.heroku.com/platform) provider [Heroku](https://www.heroku.com/#) using Git & Github
 - This web service will serve up a random joke in [JSON](https://www.json.org/json-en.html) format
 - Below are screenshots of the landing page for the service, the `/stale-joke` and `/random-joke` endpoints, and a client web app that uses the web service
@@ -173,4 +173,12 @@ console.log("Server starting up ...");
 
 <hr>
 
-3) 
+3) Now we are going to install ONE npm package - just one external dependency - the nodemon project - this is going to be a *development dependency* to make our lives easier:
+  - you can read about it here: https://www.npmjs.com/package/nodemon
+  - what nodemon will do for us will be to automatically restart our app any time we make changes to our files - this will end up saving us a lot of time over the long haul of writing and debugging an app
+  
+4) To install nodemon for just this app type `npm install --save-dev nodemon`
+
+![screenshot](_images/_simple-node-web-api/ss-10.png)
+
+   - the `--save-dev nodemon` flag will add a `"devDependencies"` key to **package.json**
