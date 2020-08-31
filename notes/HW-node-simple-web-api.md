@@ -40,14 +40,14 @@
 ## II. Getting ready
 
 1) You need a console app to type commands into:
-    - On Mac OS you can use the built in *Terminal* app
+    - On Mac OS you can use the built-in *Terminal* app
     - On Windows you can use one of these:
       - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
       - GitBash (this also installs git) - https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/
       - Powershell - https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell
     - You should also know some basic Unix commands such as `cd`, `ls` and `pwd` - [Unix Cheatsheet](http://www.rain.org/~mkummel/unix.html)
     
-2) You must have node & npm installed - see the install instructions here --> https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+2) You must have **Node.js** & **npm** ("Node Package Manager")) installed - see the install instructions here --> https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 3) If you are going to deploy this to app to Heroku you will need:
     - A Github account (free!) - https://education.github.com/pack
