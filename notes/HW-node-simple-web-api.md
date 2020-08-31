@@ -220,7 +220,19 @@ console.log("Server starting up ...");
 - Now that we have the project setup, let's finally write some code to serve up our web API's default "landing page" that documents the API endpoints
 - Recall that we are not going to use the Express package to do this - why not?
   - This a pretty simple app, so we don't need any of the functionality that Express provides
-  - By instead using the built-in capabilities of Node's `http` module, we can avoid a 500+ kByte download and (more importantly) 51 dependencies - https://arve0.github.io/npm-download-size/#express
+  - By instead using the built-in capabilities of Node's **http** module, we can avoid a 500+ kByte download and (more importantly) 51 dependencies - https://arve0.github.io/npm-download-size/#express
 
 
+1) Type the following into **index.js**
 
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-12.png)
+
+<hr>
+
+    - the first line of code imports the bult-in **http** module and aliases it to a `http` variable in our program - you can read about **import** and the **http** module here: 
+      - https://nodejs.org/api/modules.html#modules_require_id
+      - https://nodejs.org/api/http.html#http_class_http_serverresponse
+
+2) 
