@@ -260,3 +260,17 @@ const jokes = [
 ```
 
 4)
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-14.png)
+
+<hr>
+
+- ddd
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-15.png)
+
+<hr>
