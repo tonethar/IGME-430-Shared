@@ -185,10 +185,22 @@ console.log("Server starting up ...");
 
 <hr>
 
-5) the `--save-dev nodemon` flag will add a `"devDependencies"` key to **package.json** - which looks something like this (your version number may vary):
+5) The `--save-dev nodemon` flag will add a `"devDependencies"` key to **package.json** - which looks something like this (your version number may vary):
 
 ```js
 "devDependencies": {
     "nodemon": "^2.0.4"
   }
 ```
+
+6) To use the monitoring capabilities of nodemon, we just need to add this to the `"scripts"` key of **package.json**:
+    - `"nodemon": "nodemon --watch ./src ./src/index.js"`
+    - The above command will "watch" the contents of the `src` folder for changes, and when it sees any it will restart the server by running the script at "./src/index.js"
+    
+7) Now test nodemon by typing `npm run nodemon` in the console, and then making a small chnage to **index.js** - you should see the server restart:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-11.png)
+
+<hr>
