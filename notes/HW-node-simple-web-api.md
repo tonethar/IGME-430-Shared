@@ -281,6 +281,11 @@ const jokes = [
     - the docs for `http.createServer()` are here: https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener
 - the third line of code logs out the port number, which will be 3000 when we are running the app locally on our machine
 
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-15.png)
+
+<hr>
 
 5) If nodemon is running, the app should restart when you save the changes to the code:
 
@@ -289,8 +294,6 @@ const jokes = [
     - you will also see an error in the browser window - because our web server didn't send any data back - let's fix that!
 
 <hr>
-
-![screenshot](_images/_simple-node-web-api/ss-15.png)
 
 ![screenshot](_images/_simple-node-web-api/ss-16.png)
 
