@@ -259,7 +259,14 @@ const jokes = [
 ];
 ```
 
-4)
+4) Below is 3 more JavaScript statements to type in:
+
+    - the first statement is an ES6 style [arrow function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) that defines a *request handler* - which is a function that will be called whenever an HTTP request comes into our server
+    - the second line of code creates our web server, and passes in the request handler and port:
+      - this code is "where the magic happens" - it creates a server and then sets up a function to be called every time an HTTP [User Agent](https://en.wikipedia.org/wiki/User_agent) contacts the server
+      - note that this line of code is using [*method chaining*](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
+      - the docs for `http.createServer()` are here: https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener
+    - the third line of code logs out the port number, which will be 3000 when we are running the app locally on our machine
 
 <hr>
 
