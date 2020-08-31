@@ -246,7 +246,7 @@ console.log("Server starting up ...");
 
 <hr>
 
-3)Here's our joke data - it's an array of object literals - each of which has a `"q"` and an `"a"` key. Here it is for your copy & paste pleasure:
+3)Here's our joke data - it's an array of [object literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer) - each of which has a `"q"` and an `"a"` key. Here it is for your copy & paste pleasure:
 
 ```js
 const jokes = [
