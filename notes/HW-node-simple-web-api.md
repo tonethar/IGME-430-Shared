@@ -327,6 +327,7 @@ const jokes = [
 <hr>
 
 8) Now our server will return our "landing" web page - no matter what url (aka "endpoint") we ask for:
+  - go ahead and click on the "stale-joke" & "random-joke" links - the browser location bar will update - but the visible web page will not change ... yet
 
 
 <hr>
@@ -334,3 +335,18 @@ const jokes = [
 ![screenshot](_images/_simple-node-web-api/ss-19.png)
 
 <hr>
+
+
+## VIII. Get `/stale-joke` working
+
+## IX. Get `/random-joke` working
+
+## X. Test your client app
+
+## XI. Commit your app files to GitHub
+
+## XII. Configure your Heroku account
+
+## XIII. Test your client app (again)
+
+## XIV. Wrap up
