@@ -304,4 +304,33 @@ const jokes = [
 
 <hr>
 
-6) 
+6) Go ahead and declare the `getIndex` function - see below:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-17.png)
+
+<hr>
+
+- the above function uses methods of the `HttpResponse` class to return:
+  - the HTTP status code of `200` (which means "Ok") - read about HTTP status code here: 
+  - the "text/html" `content-type` - read about MIME types here:
+  - (the status code and headers are basically *metadata* about the server response)
+  - to send the actual content (the HTML page) `response.write()` is used
+
+7) Finally, let's add `getIndex(request, response);` to the bottom of `onRequest`:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-17.png)
+
+<hr>
+
+8) Now our server will return our "landing" web page - no matter what url (aka "endpoint") we ask for:
+
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-18.png)
+
+<hr>
