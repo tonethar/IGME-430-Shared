@@ -283,7 +283,7 @@ const jokes = [
     - note that this line of code is using [*method chaining*](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
     - the docs for `http.createServer()` are here: https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener
 - the third line of code logs out the port number, which will be 3000 when we are running the app locally on our machine
-- see the screeenshot below
+- see the screeenshot below:
 
 <hr>
 
@@ -294,7 +294,7 @@ const jokes = [
 5) If nodemon is running, the app should restart when you save the changes to the code:
 
     - now head to a browser window and connect to `http://localhost:3000/` - you should see a log of the URL to the console - in this case a `/`
-    - now change the URL to `http://localhost:3000/` - you should see another log of the URL to the console - now it's `/stale-joke`
+    - now change the URL to `http://localhost:3000/stale-joke` - you should see another log of the URL to the console - now it's `/stale-joke`
     - you will also see an error in the browser window - because our web server didn't send any data back - we'll fix that in the next step!
     - see the screeenshot below:
     
