@@ -197,7 +197,8 @@ console.log("Server starting up ...");
     - `"nodemon": "nodemon --watch ./src ./src/index.js"`
     - The above command will "watch" the contents of the `src` folder for changes, and when it sees any it will restart the server by running the script at "./src/index.js"
     
-7) Now test nodemon by typing `npm run nodemon` in the console, and then making a small chnage to **index.js** - you should see the server restart:
+7) Now test nodemon by typing `npm run nodemon` in the console, and then make a small change to **index.js**:
+    - you should see the server restart and the change refelcted in the console:
 
 <hr>
 
