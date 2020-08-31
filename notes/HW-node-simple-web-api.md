@@ -312,9 +312,9 @@ const jokes = [
 
 <hr>
 
-- the above function uses methods of the `HttpResponse` class to return:
-  - the HTTP status code of `200` (which means "Ok") - read about HTTP status code here: 
-  - the "text/html" `content-type` - read about MIME types here:
+- the above function uses methods of the [`ServerResponse`](https://nodejs.org/api/http.html#http_class_http_serverresponse) class to return:
+  - the HTTP status code of `200` (which means "Ok") - read about HTTP status codes here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+  - the "text/html" `content-type` - read about MIME types here: https://www.iana.org/assignments/media-types/media-types.xhtml
   - (the status code and headers are basically *metadata* about the server response)
   - to send the actual content (the HTML page) `response.write()` is used
 
