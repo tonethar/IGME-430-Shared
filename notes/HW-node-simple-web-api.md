@@ -322,7 +322,7 @@ const jokes = [
 
 <hr>
 
-![screenshot](_images/_simple-node-web-api/ss-17.png)
+![screenshot](_images/_simple-node-web-api/ss-18.png)
 
 <hr>
 
@@ -331,6 +331,6 @@ const jokes = [
 
 <hr>
 
-![screenshot](_images/_simple-node-web-api/ss-18.png)
+![screenshot](_images/_simple-node-web-api/ss-19.png)
 
 <hr>
