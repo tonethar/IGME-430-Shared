@@ -295,8 +295,9 @@ const jokes = [
 
     - now head to a browser window and connect to `http://localhost:3000/` - you should see a log of the URL to the console - in this case a `/`
     - now change the URL to `http://localhost:3000/` - you should see another log of the URL to the console - now it's `/stale-joke`
-    - you will also see an error in the browser window - because our web server didn't send any data back - let's fix that!
-    - see the screeenshot below
+    - you will also see an error in the browser window - because our web server didn't send any data back - we'll fix that in the next step!
+    - see the screeenshot below:
+    
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-16.png)
