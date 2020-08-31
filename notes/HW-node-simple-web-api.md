@@ -196,6 +196,15 @@ console.log("Server starting up ...");
 6) To use the monitoring capabilities of nodemon, we just need to add this to the `"scripts"` key of **package.json**:
     - `"nodemon": "nodemon --watch ./src ./src/index.js"`
     - The above command will "watch" the contents of the `src` folder for changes, and when it sees any it will restart the server by running the script at "./src/index.js"
+    - the the "scripts" key of your package.json file should now look this:
+    
+```js
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "nodemon": "nodemon --watch ./src ./src/index.js"
+ }
+```
     
 7) Now test nodemon by typing `npm run nodemon` in the console, and then make a small change to **index.js**:
     - you should see the server restart and the change reflected in the console:
