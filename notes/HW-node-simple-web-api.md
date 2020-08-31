@@ -244,7 +244,7 @@ console.log("Server starting up ...");
 - the third line of code is the HTML string for our landing page. More commonly this HTML be stored in a separate file or template and then loaded in by our JavaScript, but we're trying to keep this example simple:
   - note that the entire string is an ES6 [Template Literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) and enclosed in backticks (the key near your escape key) NOT single-quotes
 
-2) Note that nodemon should be automatically rebooting the server everytime you save any changes to **index.js** - before you move on - be sure that there are no syntax errors and that the successfully code runs
+2) Note that nodemon should be automatically rebooting the server everytime you save any changes to **index.js** - before you move on - be sure that there are no syntax errors and that the successfully code runs. See the screeenshot below:
 
 <hr>
 
@@ -283,6 +283,7 @@ const jokes = [
     - note that this line of code is using [*method chaining*](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
     - the docs for `http.createServer()` are here: https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener
 - the third line of code logs out the port number, which will be 3000 when we are running the app locally on our machine
+- see the screeenshot below
 
 <hr>
 
@@ -295,7 +296,7 @@ const jokes = [
     - now head to a browser window and connect to `http://localhost:3000/` - you should see a log of the URL to the console - in this case a `/`
     - now change the URL to `http://localhost:3000/` - you should see another log of the URL to the console - now it's `/stale-joke`
     - you will also see an error in the browser window - because our web server didn't send any data back - let's fix that!
-
+    - see the screeenshot below
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-16.png)
