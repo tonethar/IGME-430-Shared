@@ -234,7 +234,7 @@ console.log("Server starting up ...");
 - the first line of code imports the built-in **http** module and aliases it to a `http` variable in our program - you can read about **import** and the **http** module here: 
     - https://nodejs.org/api/modules.html#modules_require_id
     - https://nodejs.org/api/http.html#http_class_http_serverresponse
-- the second line of code sets up a *port* (which you can read about here - [Port_(computer_networking)](https://en.wikipedia.org/wiki/Port_(computer_networking)) - which will be 3000 when we test locally. The other values (`process.env.PORT` & `process.env.NODE_PORT`) will be instead used when this app runs on Heroku
+- the second line of code sets up a *port* (which you can read about here - [Port_(computer_networking)](https://en.wikipedia.org/wiki/Port_(computer_networking)) - which will be 3000 when we test locally. One of the other values (`process.env.PORT` & `process.env.NODE_PORT`) will be used as a port value when this app runs in the cloud on Heroku
 - the third line of code is the HTML string for our landing page. More commonly this HTML be stored in a separate file or template and then loaded in by our JavaScript, but we're trying to keep this example simple:
   - note that the entire string is an ES6 [Template Literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) and enclosed in backticks (the key near your escape key) NOT single-quotes
 
