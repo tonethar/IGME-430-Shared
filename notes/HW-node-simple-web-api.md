@@ -292,6 +292,8 @@ const jokes = [
 
 ![screenshot](_images/_simple-node-web-api/ss-15.png)
 
+![screenshot](_images/_simple-node-web-api/ss-16.png)
+
 <hr>
 
 6) 
