@@ -214,3 +214,13 @@ console.log("Server starting up ...");
 ![screenshot](_images/_simple-node-web-api/ss-11.png)
 
 <hr>
+
+## VII. Serve up the landing page
+
+- Now that we have the project setup, let's finally write some code to serve up our web API's default "landing page" that documents the API endpoints
+- Recall that we are not going to use the Express package to do this - why not?
+  - This a pretty simple app, so we don't need any of the functionality that Express provides
+  - By instead using the built-in capabilities of Node's `http` module, we can avoid a 500+ kByte download and (more importantly) 51 dependencies - https://arve0.github.io/npm-download-size/#express
+
+
+
