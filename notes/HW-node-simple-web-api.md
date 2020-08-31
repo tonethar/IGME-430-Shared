@@ -274,7 +274,7 @@ const jokes = [
 <hr>
 
 
-- the first statement is an ES6 style [arrow function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) that defines a *request handler* - which is a function that will be called whenever an HTTP request comes into our server
+- the first statement above is an ES6 style [arrow function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) that defines a *request handler* - which is a function that will be called whenever an HTTP request comes into our server
 - the second line of code creates our web server, and passes in the request handler and port:
     - this code is "where the magic happens" - it creates a server and then sets up a function to be called every time an HTTP [User Agent](https://en.wikipedia.org/wiki/User_agent) contacts the server
     - note that this line of code is using [*method chaining*](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
@@ -282,10 +282,16 @@ const jokes = [
 - the third line of code logs out the port number, which will be 3000 when we are running the app locally on our machine
 
 
-- ddd
+5) If nodemon is running, the app should restart when you save the changes to the code:
+
+    - now head to a browser window and connect to `http://localhost:3000/` - you should see a log of the URL to the console - in this case a `/`
+    - now change the URL to `http://localhost:3000/` - you should see another log of the URL to the console - now it's `/stale-joke`
+    - you will also see an error in the browser window - because our web server didn't send any data back - let's fix that!
 
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-15.png)
 
 <hr>
+
+6) 
