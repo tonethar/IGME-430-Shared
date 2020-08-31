@@ -173,7 +173,7 @@ console.log("Server starting up ...");
 
 <hr>
 
-3) Now we are going to install ONE npm package - just one external dependency - the nodemon project - this is going to be a *development dependency* to make our lives easier:
+3) Now we are going to install ONE npm package - just one external dependency - the nodemon project - this is going to be a *development dependency* that will make our lives easier:
     - you can read about it here: https://www.npmjs.com/package/nodemon
     - what nodemon will do for us will be to automatically restart our app any time we make changes to our files - this will end up saving us a lot of time over the long haul of writing and debugging an app
   
@@ -198,7 +198,7 @@ console.log("Server starting up ...");
     - The above command will "watch" the contents of the `src` folder for changes, and when it sees any it will restart the server by running the script at "./src/index.js"
     
 7) Now test nodemon by typing `npm run nodemon` in the console, and then make a small change to **index.js**:
-    - you should see the server restart and the change refelcted in the console:
+    - you should see the server restart and the change reflected in the console:
 
 <hr>
 
