@@ -231,8 +231,8 @@ console.log("Server starting up ...");
 
 <hr>
 
-    - the first line of code imports the bult-in **http** module and aliases it to a `http` variable in our program - you can read about **import** and the **http** module here: 
-      - https://nodejs.org/api/modules.html#modules_require_id
-      - https://nodejs.org/api/http.html#http_class_http_serverresponse
+- the first line of code imports the bult-in **http** module and aliases it to a `http` variable in our program - you can read about **import** and the **http** module here: 
+    - https://nodejs.org/api/modules.html#modules_require_id
+    - https://nodejs.org/api/http.html#http_class_http_serverresponse
 
 2) 
