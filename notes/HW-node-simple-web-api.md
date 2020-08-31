@@ -238,4 +238,25 @@ console.log("Server starting up ...");
 - the third line of code is the HTML string for our landing page. More commonly this HTML be stored in a separate file or template and then loaded in by our JavaScript, but we're trying to keep this example simple:
   - note that the entire string is an ES6 [Template Literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) and enclosed in backticks (the key near your escape key) NOT single-quotes
 
-2) 
+2) Note that nodemon should be automatically rebooting the server everytime you save any changes to **index.js** - before you move on - be sure that there are no syntax errors and that the successfully code runs
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-13.png)
+
+<hr>
+
+3)Here's our joke data - it's an array of object literals - each of which has a `"q"` and an `"a"` key. Here it is for your copy & paste pleasure:
+
+```js
+const jokes = [
+	{"q" : "Why did the chicken cross the road?", "a" : "To get to the other side!"},
+	{"q" : "What do you call a very small valentine?","a":"A valen-tiny!"},
+	{"q" : "What did the dog say when he rubbed his tail on the sandpaper?","a":"Ruff, Ruff!"},
+	{"q" : "Why don't sharks like to eat clowns?","a":"Because they taste funny!"},
+	{"q" : "What did the boy cat say to the girl cat?","a":"You're Purr-fect!"},
+	{"q" : "What is a frog's favorite outdoor sport?","a":"Fly Fishing!"}
+];
+```
+
+4)
