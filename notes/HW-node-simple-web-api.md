@@ -547,6 +547,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
     
+2) We can see that 
 
 ## XII. Configure your Heroku account
 
