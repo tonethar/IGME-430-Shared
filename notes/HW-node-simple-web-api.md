@@ -414,6 +414,7 @@ const jokes = [
 1) Now that we have a functioning web service, let's test it out:
     - here's the HTML/CSS/JavaScript code we promised you - it utilizes the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object (aka "XHR") to download the joke JSON 
     - you can run this locally by saving this to your hard drive and opening it up in Chrome or another web browser
+    - as we are not going to be posting this client app to Heroku, don't save it in your **joke-server** folder, put it somewhere else
 
 **joke-client.html**
 
@@ -532,6 +533,20 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 <hr>
 
 ## XI. Commit your app files to GitHub
+
+- Now that we have our web service working perfectly, it's time to get it out on the web and posted to Heroku, which means we need to push all of the code we just wrote up our GitHub repository we created way back in Part III.
+
+1) The first thing we need to do it to update our local repository:
+    - quit the server by typing ctrl-c
+    - make sure that **joke-service** is your *current working directory*
+    - type `git status`
+    
+ <hr>
+
+![screenshot](_images/_simple-node-web-api/ss-30.png)
+
+<hr> 
+    
 
 ## XII. Configure your Heroku account
 
