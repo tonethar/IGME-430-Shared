@@ -380,7 +380,7 @@ const jokes = [
 
 <hr>
 
-2) Here's the updated definition of `onRequest`
+2) Here's the updated definition of `onRequest` (note that a using `switch` statement instead of the `if/else` we did below would be a nice improvement):
 
 <hr>
 
@@ -393,6 +393,14 @@ const jokes = [
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-25.png)
+
+<hr>
+
+4) Be sure to test both of these endpoints from the landing page - they should function the same as if you typed them into the browser location bar:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-1.png)
 
 <hr>
 
