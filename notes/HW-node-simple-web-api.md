@@ -580,7 +580,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
-5) Now your changes should have been pushed to your GitHub respository - go take a look at the respository in GitHubs standard web interface:
+5) Now your changes should have been pushed to your GitHub respository - go take a look at the respository in GitHubs standard web interface to verify that it has been updated:
 
 <hr>
 
