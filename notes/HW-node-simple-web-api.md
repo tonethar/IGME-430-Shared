@@ -560,6 +560,26 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
+3) Type `git status` again to see the changes
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-32.png)
+
+<hr> 
+
+4) Type:
+    - `git add .`
+    - `git status`
+    - `git commit -m "First commit"`
+    - `git push` (or `git push origin master`)
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-33.png)
+
+<hr> 
+
 ## XII. Configure your Heroku account
 
 ## XIII. Wrap up
