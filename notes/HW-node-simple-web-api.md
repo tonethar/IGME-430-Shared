@@ -613,12 +613,14 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 3) Scroll down the page:
 
-    - 
+    - Click the **Automatic Deploy** and **Deploy Branch** buttons - see screenshot below:
     
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-37.png)
 
 <hr> 
+
+4) 
 
 ## XIII. Wrap up
