@@ -418,17 +418,15 @@ const jokes = [
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<title>Joke Fetcher</title>
-		<style>
-		*{font-family: sans-serif;}
-		#setup{font-weight: bold;}
-		#punchline{font-style: italic;}
-		#btnFetchJoke{font-size:130%;padding:.2em;}
-			
-		</style>
-    
-	</head>
+	  <meta charset="utf-8" />
+	  <title>Joke Fetcher</title>
+	  <style>
+	    *{font-family: sans-serif;}
+	    #setup{font-weight: bold;}
+	    #punchline{font-style: italic;}
+	    #btnFetchJoke{font-size:130%;padding:.2em;}		
+	  </style>
+        </head>
 <body>
 	<h1>View a random joke!</h1>
 	<button id="btnFetchJoke" title="Click to see a new joke!">See new Joke!</button>
