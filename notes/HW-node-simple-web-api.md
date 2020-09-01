@@ -600,6 +600,24 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
-2) 
+2) For **Deployment**, select **GitHub**:
+    - You will need to enter your GitHub credentials
+    - Search for and choose your **joke-service** repository
+    - Click the **Connect** button (I've already logged in and connected in the screenshot below)
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-36.png)
+
+<hr> 
+
+3) Scroll down the page:
+    - 
+    
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-37.png)
+
+<hr> 
 
 ## XIII. Wrap up
