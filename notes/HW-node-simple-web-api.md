@@ -560,7 +560,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
-3) Type `git status` again to see the changes
+3) Type `git status` again to see the changes - both **node_modules** and **.DS_Store** are being ignored 
 
 <hr>
 
@@ -568,7 +568,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
-4) Type:
+4) Type, and see screenshot below:
     - `git add .`
     - `git status`
     - `git commit -m "First commit"`
@@ -577,6 +577,14 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-33.png)
+
+<hr> 
+
+5) Now your changes should have been pushed to your GitHub respository - go take a look at the respository in GitHubs standard web interface:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-34.png)
 
 <hr> 
 
