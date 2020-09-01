@@ -314,7 +314,10 @@ const jokes = [
 
 - the above function uses methods of the [`ServerResponse`](https://nodejs.org/api/http.html#http_class_http_serverresponse) class to return:
   - the HTTP status code of `200` (which means "Ok") - read about HTTP status codes here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-  - the "text/html" `content-type` - read about MIME types here: https://www.iana.org/assignments/media-types/media-types.xhtml
+  - the `content-type: text/html` HTTP header:
+    - read about MIME types here: https://www.iana.org/assignments/media-types/media-types.xhtml
+    - read about HTTP response headers here: https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Response_fields
+    - addtional HTTP headers can be added as key:value pairs
   - (the status code and headers are basically *metadata* about the server response)
   - to send the actual content (the HTML page) `response.write()` is used
 
@@ -338,6 +341,26 @@ const jokes = [
 
 
 ## VIII. Get `/stale-joke` working
+
+1) Now let's get the `/stale-joke` functioning - here's the `getStaleJoke` function definition:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-20.png)
+
+<hr>
+
+- Note that `getStaleJoke` is similar to `getIndex`, but with differences in the first 2 lines of code:
+  - in the first line, we are sending a `content-type` of `application/json` instead of `text/html`
+  - in the second line, rather than sending a hard-coded string, we are grabbing the first JSON joke out of the array, and then *stringifying* it - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+  
+2) Here's the new definition of ``, which will call `getStaleJoke()` if the `url` equals `/stale-joke`, and the landing page for all other endpoints
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-21.png)
+
+<hr>
 
 ## IX. Get `/random-joke` working
 
