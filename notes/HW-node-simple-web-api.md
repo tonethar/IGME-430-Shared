@@ -592,7 +592,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 - Now we're finally ready to push our web API to Heroku!
 
-1) Head to https://dashboard.heroku.com/apps and create a new app 
+1) Head to https://dashboard.heroku.com/apps and create a new app - I named mine **funny-joke-service** - but you will have to come up with a different name
 
 <hr>
 
@@ -649,7 +649,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 ## XIII. Test it & Wrap up
 
 1) The final test - go ahead and modify **joke-client.html** to utilize our web API:
-  - in `getJoke()` , update the `url` variable to point at the full URL of the `random-joke` endpoint
-  - here's what it looks like for me (your URL will be slighlty different) - `const url = "https://funny-joke-service.herokuapp.com/random-joke";`
+    - in `getJoke()` , update the `url` variable to point at the full URL of the `random-joke` endpoint
+    - here's what it looks like for me (your URL will be slighlty different) - `const url = "https://funny-joke-service.herokuapp.com/random-joke";`
   
  2) Wow! We're done! We've successfully build and deployed a Web API to Heroku fo the whole world to enjoy!
