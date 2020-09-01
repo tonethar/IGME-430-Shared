@@ -354,11 +354,19 @@ const jokes = [
   - in the first line, we are sending a `content-type` of `application/json` instead of `text/html`
   - in the second line, rather than sending a hard-coded string, we are grabbing the first JSON joke out of the array, and then *stringifying* it - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
   
-2) Here's the new definition of ``, which will call `getStaleJoke()` if the `url` equals `/stale-joke`, and the landing page for all other endpoints
+2) Here's the new definition of `onRequest`, which will call `getStaleJoke()` if the `url` equals `/stale-joke`, and will show landing page for all other endpoints:
 
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-21.png)
+
+<hr>
+
+- which gives us this when we type `/stale-joke` into the browser location bar:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-22.png)
 
 <hr>
 
