@@ -439,38 +439,39 @@ const jokes = [
 	</div>
 	<script>
 		
-		function getJoke(){
-			// I. Clear the UI
-			setup.innerHTML = "...fetching joke...";
-			punchline.innerHTML = "Can't wait for that punchline!";
-			
-			// II. Set up the XHR request
-			const url = "http://localhost:3000/random-joke";
-			const xhr = new XMLHttpRequest();
-			xhr.onload = e => {
-				let str = e.target.responseText;
-				try{
-					let json = JSON.parse(e.target.responseText);
-					if( !json.q || !json.a){
-						setup.innerHTML = "There was a problem downloading the joke!";
-						punchline.innerHTML = "Check the console for more information";
-						console.log(`Could not find a 'q' and/or 'a' property! Downloaded string = ${str}`);
-					}else{
-						setup.innerHTML = json.q;
-						punchline.innerHTML = json.a;
-					}
-				}catch(error){
+	function getJoke(){
+		// I. Clear the UI
+		setup.innerHTML = "...fetching joke...";
+		punchline.innerHTML = "Can't wait for that punchline!";
+		
+		// II. Set up the XHR request
+		//const url = "https://my-joke-server.herokuapp.com/random-joke";
+		const url = "http://localhost:3000/random-joke";
+		const xhr = new XMLHttpRequest();
+		xhr.onload = e => {
+			let str = e.target.responseText;
+			try{
+				let json = JSON.parse(e.target.responseText);
+				if( !json.q || !json.a){
 					setup.innerHTML = "There was a problem downloading the joke!";
-						punchline.innerHTML = "Check the console for more information";
-						console.log(`This string does not parse to JSON. Downloaded string = ${str}`);
-						console.log(`error = ${error.message}`);
+					punchline.innerHTML = "Check the console for more information";
+					console.log(`Could not find a 'q' and/or 'a' property! Downloaded string = ${str}`);
+				}else{
+					setup.innerHTML = json.q;
+					punchline.innerHTML = json.a;
 				}
-			};
-			
-			// III. Send the request
-			xhr.open("GET",url);
-			xhr.send();
-		}
+			}catch(error){
+				setup.innerHTML = "There was a problem downloading the joke!";
+					punchline.innerHTML = "Check the console for more information";
+					console.log(`This string does not parse to JSON. Downloaded string = ${str}`);
+					console.log(`error = ${error.message}`);
+			}
+		};
+		
+		// III. Send the request
+		xhr.open("GET",url);
+		xhr.send();
+	}
    
    // Fetch a "starting" joke
    getJoke();
