@@ -629,7 +629,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
-5) XXXX
+5) Now test the landing page and the `stale-joke` and `random-joke` endpoints - their function should be identical to the local version we were running:
 
 <hr>
 
@@ -637,5 +637,19 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
+![screenshot](_images/_simple-node-web-api/ss-40.png)
 
-## XIII. Wrap up
+<hr> 
+
+![screenshot](_images/_simple-node-web-api/ss-41.png)
+
+<hr> 
+
+
+## XIII. Test it & Wrap up
+
+1) The final test - go ahead and modify **joke-client.html** to utilize our web API:
+  - in `getJoke()` , update the `url` variable to point at the full URL of the `random-joke` endpoint
+  - here's what it looks like for me (your URL will be slighlty different) - `const url = "https://funny-joke-service.herokuapp.com/random-joke";`
+  
+ 2) Wow! We're done! We've successfully build and deployed a Web API to Heroku fo the whole world to enjoy!
