@@ -547,7 +547,18 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
     
-2) We can see that 
+2) Above we can see that we have not yet committed any of our files to the local repository, before we do so though, we will create a **.gitignore** file and specify the files that we do not want to be tracked or committed to version control. In the list above, both the **.DS_Store** file (a Mac "thing" that Windows users won't see) and the **node_modules** folder are files we want git to ignore.
+    - Windows users: go ahead and create a file named **.gitignore** however you want to, and add "node_modules" to the top of it (but without quotes)
+    - Mac users: any file that begins with a `.` will be "invisible" in the Finder, so it's easier if you just use a command line text edit like nano (see screenshot below):
+      - type `nano .gitignore`
+      - add both "node_modules" and ".DS_Store" to the file
+      - don't forget to save the file
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-31.png)
+
+<hr> 
 
 ## XII. Configure your Heroku account
 
