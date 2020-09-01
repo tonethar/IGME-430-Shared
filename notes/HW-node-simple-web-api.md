@@ -331,6 +331,7 @@ const jokes = [
 
 8) Now our server will return our "landing" web page - no matter what url (aka "endpoint") we ask for:
   - go ahead and click on the "stale-joke" & "random-joke" links - the browser location bar will update - but the visible web page will not change ... yet
+  - **IMPORTANT** - note that while nodemon WILL reload the server everytime we modify **index.js**, we will still need to manually reload the web browser to see these server changes. There IS however another node package that will also reload your browser automatically - it's called [Browserify](http://browserify.org) - we are not going to set it up today - but you can take a crack at doing so if you wish.
 
 
 <hr>
