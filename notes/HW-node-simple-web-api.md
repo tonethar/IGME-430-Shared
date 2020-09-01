@@ -522,6 +522,15 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr>
 
+6) Try the client again - it should work now!
+    - in the Firefox debugger, you can also see the response headers for each new joke you download - see below:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-29.png)
+
+<hr>
+
 ## XI. Commit your app files to GitHub
 
 ## XII. Configure your Heroku account
