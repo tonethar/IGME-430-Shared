@@ -648,7 +648,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 ## XIII. Test it & Wrap up
 
-1) The final test - go ahead and modify **joke-client.html** to utilize our web API:
+1) The final test - go ahead and modify **joke-client.html** to utilize our Heroku web API:
     - in `getJoke()` , update the `url` variable to point at the full URL of the `random-joke` endpoint
     - here's what it looks like for me (your URL will be slighlty different):
       - `const url = "https://funny-joke-service.herokuapp.com/random-joke";`
