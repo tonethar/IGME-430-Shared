@@ -590,4 +590,16 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 ## XII. Configure your Heroku account
 
+- Now we're finally ready to push our web API to Heroku!
+
+1) Head to https://dashboard.heroku.com/apps and create a new app 
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-35.png)
+
+<hr> 
+
+2) 
+
 ## XIII. Wrap up
