@@ -621,6 +621,21 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 <hr> 
 
-4) 
+4) Head to the **Activity** tab to see your GutHub files getting uploaded:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-38.png)
+
+<hr> 
+
+5) XXXX
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-39.png)
+
+<hr> 
+
 
 ## XIII. Wrap up
