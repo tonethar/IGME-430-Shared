@@ -362,7 +362,7 @@ const jokes = [
 
 <hr>
 
-- which gives us this when we type `/stale-joke` into the browser location bar:
+3) Which gives us this when we type `/stale-joke` into the browser location bar:
 
 <hr>
 
@@ -371,6 +371,30 @@ const jokes = [
 <hr>
 
 ## IX. Get `/random-joke` working
+
+1) The `/random-joke` endpoint is similar to the `/stale-joke` endpoint, except that we will return a random JSON joke from the array, rather than returning the same joke every time. Here's the code:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-23.png)
+
+<hr>
+
+2) Here's the updated definition of `onRequest`
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-24.png)
+
+<hr>
+
+3) Which gives us this when we type `/random-joke` into the browser location bar:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-25.png)
+
+<hr>
 
 ## X. Test your client app
 
