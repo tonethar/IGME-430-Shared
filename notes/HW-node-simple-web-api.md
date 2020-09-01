@@ -481,10 +481,16 @@ const jokes = [
 </html>
 ```
 
+2) Hmm - something has gone wrong. THe console gives a clue:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-26.png)
+
+<hr>
+
 ## XI. Commit your app files to GitHub
 
 ## XII. Configure your Heroku account
 
-## XIII. Test your client app (again)
-
-## XIV. Wrap up
+## XIII. Wrap up
