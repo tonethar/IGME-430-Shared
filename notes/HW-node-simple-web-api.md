@@ -513,7 +513,7 @@ response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-All
 
 ```
 
-5) Now check the headers on our web service again:
+5) Now check the headers on our web service again - you should be able to see the `Access-Control-Allow-Origin: *` header in the debugger (be sure to test both the `stale-joke` and the `random-joke` endpoints):
 
 <hr>
 
