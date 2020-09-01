@@ -493,6 +493,34 @@ const jokes = [
 
 <hr>
 
+3) What we have is a CORS error:
+    - you can read about them here: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+    - **TL;DR** - for the browser to allow `XHR` to access our **joke-service**, the `Access-Control-Allow-Origin` response header must be sent by the service
+    - let's check the web service to see if that header exists - we'll use the Firefox developer tools:
+  
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-27.png)
+
+<hr>
+  
+4) It's easy to get our API to send this header
+    - change the `writeHead()` function in both `getStaleJoke` and `getRandomJoke` to send the `Access-Control-Allow-Origin: *` header - the modified line of code looks like this:
+    
+```js
+
+response.writeHead(200, { 'Content-Type': 'application/json','Access-Control-Allow-Origin': '*' });
+
+```
+
+5) Now check the headers on our web service again:
+
+<hr>
+
+![screenshot](_images/_simple-node-web-api/ss-28.png)
+
+<hr>
+
 ## XI. Commit your app files to GitHub
 
 ## XII. Configure your Heroku account
