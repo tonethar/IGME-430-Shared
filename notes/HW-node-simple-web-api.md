@@ -362,11 +362,15 @@ const jokes = [
 
 <hr>
 
-3) Which gives us this when we type `/stale-joke` into the browser location bar:
+3) Which gives us this when we type `/stale-joke` into the browser location bar - success!:
 
 <hr>
 
 ![screenshot](_images/_simple-node-web-api/ss-22.png)
+
+<hr>
+
+4) Your JSON might not be as nicely formatted as mine - this is because I'm using the [JSONViewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome extension 
 
 <hr>
 
@@ -388,7 +392,7 @@ const jokes = [
 
 <hr>
 
-3) Which gives us this when we type `/random-joke` into the browser location bar:
+3) Which gives us a random joke in JSON format when we type `/random-joke` into the browser location bar:
 
 <hr>
 
