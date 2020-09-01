@@ -410,7 +410,9 @@ const jokes = [
 
 ## X. Test your client app
 
-1) Now that we have a functioning web service, let's test it out. Here's the HTML/CSS/JavaScript code I promised you. You can run this locally by saving this to your hard drive and opening it up in Chrome or another web browser:
+1) Now that we have a functioning web service, let's test it out:
+    - here's the HTML/CSS/JavaScript code we promised you - it utilizes the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object (aka "XHR") to download the joke JSON 
+    - you can run this locally by saving this to your hard drive and opening it up in Chrome or another web browser
 
 **joke-client.html**
 
@@ -446,6 +448,8 @@ const jokes = [
 		//const url = "https://my-joke-server.herokuapp.com/random-joke";
 		const url = "http://localhost:3000/random-joke";
 		const xhr = new XMLHttpRequest();
+		
+		// III. Code that runs when the data shows up
 		xhr.onload = e => {
 			let str = e.target.responseText;
 			try{
@@ -466,7 +470,7 @@ const jokes = [
 			}
 		};
 		
-		// III. Send the request
+		// IV. Send the request
 		xhr.open("GET",url);
 		xhr.send();
 	}
