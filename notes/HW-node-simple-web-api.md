@@ -481,7 +481,7 @@ const jokes = [
 </html>
 ```
 
-2) Hmm - something has gone wrong. THe console gives a clue:
+2) Hmm - something has gone wrong when the client tries to download the web service. The console gives a clue:
 
 <hr>
 
