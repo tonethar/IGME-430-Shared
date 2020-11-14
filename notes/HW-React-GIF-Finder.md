@@ -1,4 +1,14 @@
-### III. React Function components (with hooks)
+# React-driven GIF Finder
+
+## Overview
+
+- Here we'll be using `create-react-app` and the Giphy web service to create a GIF viewing web service App
+- Here is the finished version:
+
+![screenshot](_images/_react_gif-finder/react-gif-finder-1.jpg)
+
+
+## I. React Function components (with hooks)
 - docs on hooks are here:
   - React *hooks* are newer, and allow you to add *state* to a FSC - so now we can just call them *Function Components*:
     - *state hooks* - creates a getter and setter for a state variable.  Changing this variable will trigger a re-render of any part of the component that depends on the variable (a *binding*)
