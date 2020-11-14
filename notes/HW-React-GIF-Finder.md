@@ -3,7 +3,7 @@
 ## Overview
 
 - Here we'll be using `create-react-app` and the Giphy web service to create a GIF viewing web service App
-- Here is the finished version:
+- Here is the finished version (after a search was conducted): 
 
 ![screenshot](_images/_react_gif-finder/react-gif-finder-1.jpg)
 
