@@ -1,4 +1,4 @@
-# React-driven GIF Finder
+# React-driven *GIF Finder*
 
 ## Overview
 
